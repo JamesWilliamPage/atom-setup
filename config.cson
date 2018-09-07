@@ -1,0 +1,59 @@
+"*":
+  "advanced-open-file":
+    createDirectories: true
+    fuzzyMatch: true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "d51b6a3e-1e1e-4b37-9290-925c787dba79"
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": "never"
+  "autocomplete-plus": {}
+  core:
+    allowPendingPaneItems: false
+    disabledPackages: [
+      "quick-query"
+      "quick-query-mssql"
+      "markdown-preview"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 11
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "e9b7bb62-5a72-4af2-9428-d53b15f65faa"
+  "linter-eslint":
+    fixOnSave: true
+    globalNodePath: "/usr"
+    useGlobalEslint: true
+  "linter-ui-default":
+    decorateOnTreeView: "Files and Directories"
+  "markdown-preview-plus": {}
+  minimap:
+    moveCursorOnMinimapClick: true
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      "minimap-hide": true
+      "minimap-hideDecorationsZIndex": 0
+  "minimap-git-diff":
+    useGutterDecoration: true
+  tabs:
+    enableMruTabSwitching: false
+    enableVcsColoring: true
+  "trailing-semicolon":
+    startNewline: true
+  "tree-view":
+    alwaysOpenExisting: true
+    autoReveal: true
+    focusOnReveal: false
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
